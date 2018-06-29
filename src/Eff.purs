@@ -2,7 +2,7 @@ module Eff where
 
 import Prelude
 import Effect (Effect)
-import Effect.Exception (Error, error, throwException)
+import Effect.Exception (error, throwException)
 import Control.Monad.Except (Except, runExcept)
 import Data.Either (Either(..))
 import Data.Foldable (foldl)
